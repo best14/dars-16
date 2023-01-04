@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+
+}
+img{
+    width: 100%;
+}
+body{
+    font-family: sans-serif;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.home .container {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 300px;
+}
+.home_item {
+    margin-left: auto;
+    display: flex;
+}
+.home_work {
+    margin: 0 15px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.home_pro a {
+    background-color:rgba(237, 237, 237, 1);
+    color: rgba(18, 18, 18, 1);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px !important;
+}
+.home_work a {
+    color: rgba(18, 18, 18, 1) ;
+}
+.home_max a{
+    background-color: rgba(255, 86, 52, 1);
+    padding: 10px 17px;
+    border-radius: 5px;
+    color: #ffff;
+    margin-left: 20px;
+}
+main .container {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.food_text .food_img{
+    width: 45%;
+    margin-top: 100px !important;
+}
+main {
+    background-image: url("../img/IMAGE\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    padding-bottom: 200px;
+    background-position: right top;
+
+}
+.food_img {
+    width: 400px;
+    margin-top: 50px;
+    
+}
+.food_text a {
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: rgba(255, 86, 52, 1);
+}
+.food_text h2{
+    width: 90%;
+    font-size: 50px;
+    
+}
+.food_text p {
+    width: 90%;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.food_item {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+.food_pro  {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: rgba(255, 86, 52, 1);
+    border-radius: 5px;
+    color: #fff !important;
+    
+}
+.food_item {
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid rgb(192, 180, 180);
+}
+.food_max  {
+    margin-left: 10px;
+    padding: 10px 17px;
+    background-color: rgba(237, 237, 237, 1);
+    border-radius: 5px;
+    color:rgba(18, 18, 18, 1) !important;
+    
+}
+.food_hot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.food_hot h1 {
+    font-size: 50px;
+}
+
+.box_photo p{
+    text-align: center !important;
+    font-size: 25px;
+}
+.box_photo img {
+    width: 100%;
+    margin-top: 20px;
+
+}
+.house {
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid rgb(192, 180, 180);
+    margin-top: 10px;
+}
+
+.house {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.house_item h3{
+    color: rgba(18, 18, 18, 1);
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 15px;
+    
+}
+.house_item p {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 20px;
+
+}
+.house_item img {
+    
+    width: 200px;
+    height: 200px;
+}
+
+.house_link {
+    text-align: center;
+    margin-top: 40px;
+} 
+ .link_pro {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: rgba(255, 86, 52, 1);
+    border-radius: 5px;
+    color: #fff;
+} 
+.link_max {
+    margin-left: 10px;
+    padding: 10px 17px;
+    background-color: rgba(237, 237, 237, 1);
+    border-radius: 5px;
+    color:rgba(18, 18, 18, 1);
+} 
+ section{
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid rgb(192, 180, 180);
+    margin-top: 10px;
+} 
+a:hover {
+    transform: scale(1.3);
+}
+.home_text:hover {
+    transform: scale(1.3);
+    box-shadow:  0 0 15px 1.5px;
+    border-radius: 5px ;
+
+}
+.food_hot :hover {
+    transform: scale(1.3);
+    
+}
+.house_item img:hover {
+    transform: scale(1.3);
+   
+}
+.fast .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+} 
+.fast_text, .fast_photo {
+    width: 45%;
+}
+.pro{
+    width: 45%;
+
+}
+.pro img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+   
+}
+.fast_box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    
+}
+
+.fast_photo{
+    margin-top: 50px;
+    position: relative;
+}
+.fast_max {
+    position: absolute;
+    right: -30%;
+
+}
+.fast_tel {
+    width: 300px;
+    margin-top: 100px;
+}
+
+.fast_text h2 {
+    font-size: 35px;
+
+}
+ .amet {
+    margin-top: 25px;
+    font-size: 12px;
+}
+.pro p {
+    font-size: 10px;
+    margin-top: 10px;
+}
+.pro b{
+    font-size: 10px;
+    margin-top: 10px;
+    text-align: center !important;
+}
+.pro  h5 {
+     font-size: 20px; 
+     margin-top: 10px;
+     color: rgba(18, 18, 18, 1);
+}
+.pro img:hover {
+    transform: scale(1.5) ;    
+}
+.fast_max{
+    height: 650px;
+    margin-bottom: 50px;
+}
+.fast_link {
+    text-align: center;
+    margin-top: 40px;
+}
+.fast_123{
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: rgba(255, 86, 52, 1);
+    border-radius: 5px;
+    color: #fff;
+    
+    
+}
+.fast_321 {
+    margin-left: 10px;
+    padding: 10px 17px;
+    background-color: rgba(237, 237, 237, 1);
+    border-radius: 5px;
+    color:rgba(18, 18, 18, 1);
+}
+
+.burger .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.burger{
+    background-color: black;
+}
+
+.burger_text, .burger_img {
+    width: 45%;
+    
+}
+
+
+
+.burger_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.burber_item img{
+    padding: 5px 8px;
+}
+
+.burger_text h2 {
+    color: #fff;
+    font-size: 50px;
+}
+.burger_text p{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.burger_text a{
+    background-color: rgba(255, 86, 52, 1);
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+.express_pro {
+    width: 33%;
+    margin-top: 40px;
+}
+.express_item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.express_pro img {
+    width: 70px;
+    height: 70px;
+    margin-left: 140px;
+}
+.express_pro h3 {
+    color: rgb(18, 18, 1);
+    margin-top: 20px;
+    text-align: center;
+}
+.express_pro p {
+    font-size: 17px;
+    color: rgba(101, 101, 101, 1);
+    line-height: -20px;
+    text-align: center;
+
+}
+.express_link {
+    text-align: center;
+    margin-top: 30px;
+
+}
+.express_link a {
+    background-color: rgba(255, 86, 52, 1);
+}
+.link_max {
+    background-color: rgba(237, 237, 237, 1);
+}
